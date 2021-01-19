@@ -6,7 +6,6 @@ export default function Home(props) {
   return (
     <div>
       <h1>Home</h1>
-      {props.data.length}
       <div>
         <div>
           {/* <img src="https://www.freepnglogos.com/uploads/mobile-png/samsung-mobile-phone-png-transparent-images-png-only-0.png" /> */}

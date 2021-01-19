@@ -6,3 +6,10 @@ export const addToCart =(data)=>{
         data:data
     }
 }
+
+export const removeFromCart =()=>{
+    // console.warn("action")
+    return {
+        type:REMOVE_FROM_CART,
+    }
+}
