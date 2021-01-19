@@ -25,7 +25,13 @@ export default function Home(props) {
           </button>
           <br />
           <br />
-          <button>Remove From Cart</button>
+          <button
+            onClick={() => {
+              props.removeFromCartHandler();
+            }}
+          >
+            Remove From Cart
+          </button>
         </div>
       </div>
     </div>
